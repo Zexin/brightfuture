@@ -59,7 +59,6 @@
     color:white;
 }
 
-
 #btn_start{
     width: 220px;
     padding: 15px;
@@ -120,4 +119,111 @@
     position: relative;
     float: left;
     width: 100%;
+}
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rslides li{
+    position: relative;
+    display: block;
+    float: left;
+}
+.rslides img {
+    height: auto;
+    border: 0;
+}
+.about-head,.member-head{
+    text-align:left;
+    padding: 0 0 0 27px;
+    border-left: 6px solid  #fff200;
+}
+.about-head h3,.member-head h3{
+    color:#003b64;
+    font-size:3em;
+    font-family: 'Arvo', serif;
+}
+.about-head p,.member-head p {
+    color: #34495E;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+.about-section {
+    padding: 4em 0;
+}
+.callbacks_nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    top: 56%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 70px;
+    width: 40px;
+    background: transparent url("../img/arrows.png") no-repeat left top;
+    margin-top: -3%;
+}
+.callbacks_nav:hover{
+    opacity: 0.5;
+}
+.callbacks_nav.next {
+    left: auto;
+    background-position: right top;
+    left: 389px;
+}
+.callbacks_nav.prev {
+    right: auto;
+    background-position: left top;
+    left: 0px;
+}
+.slide-bottom {
+    padding: 1.5em 0;
+}
+.slide-bottom-grid {
+    padding: 0 0 0 27px;
+    border-left: 6px solid #fff200;
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+.member-section {
+    padding: 1em 0 1em 0;
+}
+.member-grids {
+    float: left;
+    width: 100%;
+    margin-bottom:1em;
+    background:#FFF;
+}
+.member-grids:nth-child(3){
+    display:block;
+}
+.member-grids {
+    float: left;
+    width: 33%;
+}
+.member-grids h5 {
+    color: #fff;
+    text-align: center;
+    padding: 0.6em;
+    background-color: #333;
+    font-size: 1.1em;
+    text-transform: uppercase;
 }
