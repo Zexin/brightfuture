@@ -68,6 +68,16 @@
     -moz-border-radius:0;
     border-radius:0;
 }
+.slogan {
+    margin-top: 1.5em;
+    text-align: left;
+    writing-mode: vertical-rl;
+    border-right:5px solid #F7BA00 ;
+
+}
+.slogan h2{
+    text-align: right;
+}
 /*--error--*/
 .error {
     padding:4em 0;
@@ -148,7 +158,7 @@
 .about-head,.member-head{
     text-align:left;
     padding: 0 0 0 27px;
-    border-left: 6px solid  #fff200;
+    border-left: 6px solid #F7BA00;
 }
 .about-head h3,.member-head h3{
     color:#003b64;
@@ -198,13 +208,15 @@
 }
 .slide-bottom-grid {
     padding: 0 0 0 27px;
-    border-left: 6px solid #fff200;
+    border-left: 6px solid #110e5e;
     width: 49%;
     float: left;
     margin-right: 1%;
+
 }
 .member-section {
     padding: 1em 0 1em 0;
+    margin-top:70px;
 }
 .member-grids {
     float: left;
@@ -234,4 +246,31 @@
     line-height: 1.7em;
     padding:1em;
     border:1px solid #110e5e;
+}
+.chart {
+    padding: 1em;
+    padding-left: 100px;
+    float: left;
+    background: #777777;
+}
+.classroom {
+    margin-top: 70px;
+    margin-left: 110px;
+    background:url(../img/classroom.jpg) no-repeat;
+    background-size:cover;
+    width: 375px;
+    height:565px;
+    color: #fff;
+}
+.classroom h1{
+    margin-top: 20px;
+    padding-top: 90px;
+    padding-left: 1.5em;
+    text-align: left;
+    color: #ffffff;
+}
+.road {
+    margin-top: 70px;
+    background: url("../img/road.jpg") no-repeat;
+
 }
