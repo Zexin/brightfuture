@@ -70,9 +70,9 @@
 }
 .slogan {
     margin-top: 1.5em;
-    text-align: left;
+    text-align: right;
     writing-mode: vertical-rl;
-    border-right:5px solid #F7BA00 ;
+    border-right:2px solid #F7BA00 ;
 
 }
 .slogan h2{
@@ -208,7 +208,7 @@
 }
 .slide-bottom-grid {
     padding: 0 0 0 27px;
-    border-left: 6px solid #110e5e;
+    border-left: 6px solid #f7ba00;
     width: 49%;
     float: left;
     margin-right: 1%;
@@ -232,8 +232,8 @@
     width: 33%;
 }
 .member-grids h5 {
-    color: #fff;
     text-align: center;
+    color: #fff;
     padding: 0.6em;
     background-color: #333;
     font-size: 1.1em;
@@ -272,5 +272,34 @@
 .road {
     margin-top: 70px;
     background: url("../img/road.jpg") no-repeat;
+    height: 600px;
 
+}
+
+/*service*/
+
+.services {
+    padding: 6em 0px;
+}
+.services-top {
+    text-align: center;
+}
+.services-bottom {
+    margin-top: 4%;
+}
+.services-left {
+    text-align: center;
+}
+.services-left img {
+    width: 100%;
+}
+.services-left h4 span {
+    background: #05A6B3;
+    color: #fff;
+    padding: 9px 15px;
+    margin-right: 16%;
+}
+.services-left h4 span {
+    margin-right: 6%;
+    padding: 7px 10px;
 }
