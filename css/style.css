@@ -76,6 +76,7 @@
 
 }
 .slogan h2{
+    margin: auto;
     text-align: right;
 }
 /*--error--*/
@@ -220,17 +221,18 @@
 }
 .member-grids {
     float: left;
-    width: 100%;
+    width: 25%;
     margin-bottom:1em;
+    text-align: center;
     background:#FFF;
 }
 .member-grids:nth-child(3){
     display:block;
 }
-.member-grids {
-    float: left;
-    width: 33%;
-}
+/*.member-grids {*/
+    /*float: left;*/
+    /*width: 25%;*/
+/*}*/
 .member-grids h5 {
     text-align: center;
     color: #fff;
@@ -247,35 +249,16 @@
     padding:1em;
     border:1px solid #110e5e;
 }
+.member-grids img{
+    margin: auto;
+    max-height: 200px;
+}
 .chart {
     padding: 1em;
     padding-left: 100px;
     float: left;
     background: #777777;
 }
-.classroom {
-    margin-top: 70px;
-    margin-left: 110px;
-    background:url(../img/classroom.jpg) no-repeat;
-    background-size:cover;
-    width: 375px;
-    height:565px;
-    color: #fff;
-}
-.classroom h1{
-    margin-top: 20px;
-    padding-top: 90px;
-    padding-left: 1.5em;
-    text-align: left;
-    color: #ffffff;
-}
-.road {
-    margin-top: 70px;
-    background: url("../img/road.jpg") no-repeat;
-    height: 600px;
-
-}
-
 /*service*/
 
 .services {
@@ -289,9 +272,21 @@
 }
 .services-left {
     text-align: center;
+    padding-top: 8px;
+    padding-right: 0px;
 }
 .services-left img {
     width: 100%;
+}
+.services-left h4 {
+    color: #05a6b3;
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Play-Regular';
+    background: rgba(34, 34, 34, 0.08);
+    text-align: left;
+    margin: 0;
 }
 .services-left h4 span {
     background: #05A6B3;
@@ -299,7 +294,45 @@
     padding: 9px 15px;
     margin-right: 16%;
 }
-.services-left h4 span {
-    margin-right: 6%;
-    padding: 7px 10px;
+
+/*partner*/
+.partner-section {
+    padding: 1em 0 2em 0;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 70px;
+    margin-left: 2em;
+}
+.service-grid1 {
+    float: left;
+    width: 33%;
+    margin-top: 2em;
+}
+.service-grid1 img{
+    max-height: 390px;
+}
+.service-grid1 h4{
+    text-align: center;
+    font-weight: bold;
+}
+img.zoom-img {
+    -webkit-transform: scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1, 1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+img.zoom-img:hover {
+    -webkit-transform: scale(1.1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 750ms;
+    -moz-transform: scale(1.1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 750ms;
+    overflow: hidden;
+}
+
+.border {
+    border-left:5px solid #f7ba00;
 }
