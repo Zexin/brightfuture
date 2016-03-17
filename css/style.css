@@ -89,10 +89,21 @@
 }
 .error-top h3{
     font-size: 11em;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0;
     color: #12507B;
 }
+.building-top {
+    text-align: center;
+    margin: 5em 0;
+}
+.building-top h3{
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+    color: #12507B;
+}
+
 .error-top h3 span {
     font-size: 0.1em;
     color: #12507B;
@@ -400,4 +411,11 @@ img.zoom-img:hover {
 .cart_box head{
     background-color: aliceblue;
 
+}
+.tablebg {
+
+    background: transparent url("../img/tablebg.png") no-repeat left top;;
+}
+.tabletitle {
+    background: transparent url("../img/tabletitle.png") no-repeat left top;;
 }
