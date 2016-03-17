@@ -414,8 +414,9 @@ img.zoom-img:hover {
 }
 .tablebg {
 
-    background: transparent url("../img/tablebg.png") no-repeat left top;;
+    background: transparent url("../img/tablebg.png") repeat left top;
 }
-.tabletitle {
-    background: transparent url("../img/tabletitle.png") no-repeat left top;;
+.developing {
+
+    background: transparent url("../img/developing.png") repeat left top;
 }
