@@ -79,9 +79,9 @@
 
             <div class="amount">
                 <h4 style="float: left">购买数量:</h4>
-                <img src="img/minus.jpg" style=" width: 26px;float: left">
-                <input type="text" style="height:27px;width: 36px;float: left;text-align: center" value="1">
-                <img src="img/plus.jpg" style="width: 26px;float: left">
+                <img id="btn_min" src="img/minus.jpg" style=" width: 26px;float: left">
+                <input id="input_amount" type="text" style="height:27px;width: 36px;float: left;text-align: center" value="1">
+                <img id="btn_plus" src="img/plus.jpg" style="width: 26px;float: left">
             </div>
             <div class="clearfix"></div>
             <div class="buy">
@@ -129,4 +129,28 @@
 
 
 </body>
+
+<script>
+
+    $(document).ready(
+
+            function(){
+                $('#btn_min').click(function(){
+                    if($('#input_amount').attr('value')==1){
+
+                    }else{
+                        var r = $('#input_amount').attr('value')
+                        $('#input_amount').attr('value',r-1)
+                    }
+                })
+
+                $('#btn_plus').click(function(){
+
+                    var r = Math.floor($('#input_amount').attr('value'))
+
+                    $('#input_amount').attr('value',r+1)
+                })
+            }
+    )
+</script>
 </html>
