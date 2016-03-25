@@ -472,7 +472,7 @@ img.zoom-img:hover {
 
 .tablebg {
 
-    background: transparent url("../img/tablebg.png") repeat left top;
+    background: transparent url("../img/tablebg.png") repeat-x left top;
 }
 
 .news-section {
