@@ -87,7 +87,7 @@
             </div>
             <div class="clearfix"></div>
             <div class="buy">
-                <h4><input type="submit" value="立即购买" class="btn btn-lg btn-primary" style="float: left;"/></h4>
+                <h4> <div class="btn btn-lg btn-primary" id="btn_buy" style="float: left;"> 立即购买</div></h4>
                 <!--<h4><input type="button" value="加入购物车" class="btn btn-lg btn-primary"-->
                 <!--style="float: left;margin-left: 3em"/></h4>-->
             </div>
@@ -164,6 +164,24 @@
 
                     $('#input_amount').attr('value', r + 1)
                 })
+
+
+
+                $('#btn_buy').click(function(){
+                    console.log('gogogo')
+
+                    $.post('http://exam.brightfuturechina.org/alipay/alipayapi.php', { WIDsubject: 112223333,WIDsubject:'BEST CHOICE专业选择测评系统 测评授权码',
+                        WIDtotal_fee: Math.floor($('#input_amount').val())*0.01,WIDbody:'BEST CHOICE专业选择测评系统 测试' }, function (text, status) { alert(text); });
+                })
+
+
+
+
+
+
+
+
+
             }
     )
 </script>
